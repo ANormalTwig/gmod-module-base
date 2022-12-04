@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 project(gmod-module-base LANGUAGES CXX)
 
-option(GMOD_BASE_BUILD_EXAMPLES "Build example modules." ON)
+option(GMOD_BASE_BUILD_EXAMPLES "Build example modules." OFF)
 
 set(CMAKE_CONFIGURATION_TYPES Release Debug)
 set(CMAKE_CXX_STANDARD 11)
